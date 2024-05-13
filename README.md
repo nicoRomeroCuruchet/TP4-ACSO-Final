@@ -14,7 +14,7 @@ Dentro del directorio **src** van a encontrar los siguientes archivos:
   
   -  **main.cc**: pueden usarlo para generar sus casos de tests.
     
-  -  ** tptest.cc/tpcustomtest.cc **: son casos de tests un poco mas robustos que pueden usar para probar su codigo.
+  -  **tptest.cc/tpcustomtest.cc**: son casos de tests un poco mas robustos que pueden usar para probar su codigo.
 
 ## Set up
 
