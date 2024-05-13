@@ -22,3 +22,4 @@ El siguente comando deberian ser capaces de poder compilar todo el proyecto:
 
     make
     
+**Importante:** Cuando quiera compilar con tptest.cc o tpcustomtest.cc van a tener que modificar el Makefile. Mas info en el enunciado del TP en la seccion 4.
