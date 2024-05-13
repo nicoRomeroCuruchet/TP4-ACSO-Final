@@ -1,2 +1,22 @@
-# TP4-ACSO-Final
-TP-4 Thread Pool de I301 Arquitectura de computadoras y Sistemas Operativos.  
+# I301-TP4 ACSO Thread Pool 
+
+El patrón de diseño Thread Pool es una solución de concurrencia que pre-crea y mantiene un número fijo de hilos, listos para ejecutar tareas. Este patrón es fundamental en escenarios donde la creación de hilos es costosa o cuando se requiere un alto grado de control sobre la concurrencia de tareas. En un Thread Pool, las tareas son encoladas y los hilos disponibles del pool las ejecutan. Esto evita el overhead asociado con la creación y destrucción frecuente de hilos, mejorando significativamente el rendimiento en aplicaciones de alto tráfico.
+
+## Archivos
+
+Dentro del directorio **src** van a encontrar los siguientes archivos:
+
+  -  **Semaphore.h/Semaphore.cc**: contiene una implementación de un semáforo hecha por la cátedra.
+
+  -  **Thread-pool.h**:  define la clase ThreadPool.
+
+  -  **Thread-pool.cc**: es el archivo que deberian implementar.
+  
+  -  **main.cc**: pueden usarlo para generar sus casos de tests. 
+
+## Set up
+
+El siguente comando deberian ser capaces de poder compilar todo el proyecto:
+
+    make
+    
